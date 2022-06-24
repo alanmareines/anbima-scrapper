@@ -8,10 +8,8 @@ const readFile = async () => {
     return await JSON.parse(file).map((fund) => fund.codigo_anbima)
 }
 
-const fetchFundPage = async (browser, fundCodes) => {
-    const page = await browser.newPage()
-    const funds = []
-
+const retriveFund = async (page) => {
+    await page.setDefaultNavigationTimeout(0)
     page.on("response", async (res) => {
         if (res.url().match(/^https:\/\/data.anbima.com.br\/fundos-bff\/fundos\/\d{6}$/g)) {
             try {
@@ -20,42 +18,52 @@ const fetchFundPage = async (browser, fundCodes) => {
 
                 if (res.status() > 200) {
                     console.log(chalk.bgRedBright("ERROR => ", res.status()))
-                    console.log(anbimaApiResponse)
                     fs.appendFileSync(
                         "errors.txt",
-                        `{code: ${res.url().split("/").pop()}, error: ${error}}`,
+                        `{code: ${res.url().split("/").pop()}, error: ${JSON.stringify(
+                            anbimaApiResponse
+                        )}}\n`,
                         () => console.log(chalk.bgRedBright("Error written in file"))
                     )
                 }
 
                 if (res.status() === 200) {
                     console.log(chalk.bgGreenBright(res.status()))
-                    funds.push(anbimaApiResponse)
+
+                    const file = fs.readFileSync("fundDetails.json").toString()
+                    const newContent = await JSON.parse(file)
+                    newContent.push(anbimaApiResponse)
+                    fs.writeFileSync("fundDetails.json", JSON.stringify(newContent))
+                    return
                 }
 
-                return
+                return null
             } catch (error) {
                 console.log(error)
                 fs.appendFileSync(
                     "errors.txt",
-                    `{code: ${res.url().split("/").pop()}, error: ${error}}`,
+                    `{code: ${res.url().split("/").pop()}, error: ${error}}\n`,
                     () => console.log(chalk.bgRedBright("Error written in file"))
                 )
             }
         }
     })
+}
+
+const fetchFundPage = async (browser, fundCodes) => {
+    const page = await browser.newPage()
+
+    retriveFund(page)
 
     for (const [idx, code] of fundCodes.entries()) {
-        console.log(chalk.bgYellowBright(`#${idx + 1} - Fundo ${code}`))
+        console.log(chalk.bgYellowBright(`#${idx} - Fundo ${code}`))
         await page.goto(`https://data.anbima.com.br/fundos/${code}`, {
             waitUntil: ["load", "networkidle2", "domcontentloaded"],
         })
-
-        if ((idx + 1) % 100 === 0) fs.writeFileSync(`fundDetails${idx}.json`, JSON.stringify(funds))
     }
 }
 
-;(async () => {
+const runner = async () => {
     const fundCodes = await readFile()
 
     const browser = await puppeteer.launch()
@@ -63,4 +71,6 @@ const fetchFundPage = async (browser, fundCodes) => {
     await fetchFundPage(browser, fundCodes)
 
     await browser.close()
-})()
+}
+
+runner()
