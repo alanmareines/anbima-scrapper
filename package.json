@@ -1,0 +1,15 @@
+{
+    "name": "fundos",
+    "type": "module",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "fund-list": "node fundList.js",
+        "funds": "node fundDetails.js"
+    },
+    "dependencies": {
+        "chalk": "^5.0.1",
+        "puppeteer": "^15.0.0"
+    }
+}
