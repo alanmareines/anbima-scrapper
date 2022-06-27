@@ -1,104 +1,21 @@
-{code: 651222, error: {"msg":"token timed out or duplicated"}}
-{code: 651222, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
-{code: 648566, error: {"msg":"token timed out or duplicated"}}
-{code: 645524, error: {"msg":"token timed out or duplicated"}}
-{code: 648426, error: {"msg":"token timed out or duplicated"}}
-{code: 641413, error: {"msg":"token timed out or duplicated"}}
-{code: 640190, error: {"msg":"token timed out or duplicated"}}
-{code: 637671, error: {"msg":"token timed out or duplicated"}}
-{code: 651370, error: {"timestamp":"2022-06-24T17:47:56.068+0000","status":500,"error":"Internal Server Error","message":"No message available","path":"/fundos/651370"}}
-{code: 647896, error: {"msg":"token timed out or duplicated"}}
-{code: 646032, error: {"msg":"token timed out or duplicated"}}
-{code: 647276, error: {"msg":"token timed out or duplicated"}}
-{code: 645389, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
-{code: 643777, error: {"timestamp":"2022-06-24T18:00:06.653+0000","status":500,"error":"Internal Server Error","message":"No message available","path":"/fundos/643777"}}
-{code: 644668, error: {"msg":"token timed out or duplicated"}}
-{code: 644668, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
-{code: 642282, error: {"msg":"token timed out or duplicated"}}
-{code: 640336, error: {"msg":"token timed out or duplicated"}}
-{code: 640336, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
-{code: 639087, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
-{code: 639419, error: {"msg":"token timed out or duplicated"}}
-{code: 639419, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
-{code: 638323, error: {"timestamp":"2022-06-24T18:15:35.016+0000","status":500,"error":"Internal Server Error","message":"No message available","path":"/fundos/638323"}}
-{code: 638323, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
-{code: 637394, error: {"msg":"token timed out or duplicated"}}
-{code: 634824, error: {"msg":"token timed out or duplicated"}}
-{code: 634824, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
-{code: 631280, error: {"msg":"token timed out or duplicated"}}
-{code: 630421, error: {"msg":"token timed out or duplicated"}}
-{code: 630421, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
-{code: 630391, error: {"msg":"token timed out or duplicated"}}
-{code: 627951, error: {"msg":"token timed out or duplicated"}}
-{code: 626031, error: {"msg":"token timed out or duplicated"}}
-{code: 624101, error: {"msg":"token timed out or duplicated"}}
-{code: 626600, error: {"msg":"token timed out or duplicated"}}
-{code: 626600, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
-{code: 620106, error: {"msg":"token timed out or duplicated"}}
-{code: 619620, error: {"msg":"token timed out or duplicated"}}
-{code: 619620, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
-{code: 622710, error: {"msg":"token timed out or duplicated"}}
-{code: 615951, error: {"msg":"token timed out or duplicated"}}
-{code: 614912, error: {"msg":"token timed out or duplicated"}}
-{code: 612987, error: {"msg":"token timed out or duplicated"}}
-{code: 614270, error: {"msg":"token timed out or duplicated"}}
-{code: 606871, error: {"msg":"token timed out or duplicated"}}
-{code: 609579, error: {"msg":"token timed out or duplicated"}}
-{code: 609579, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
-{code: 607940, error: {"msg":"token timed out or duplicated"}}
-{code: 603686, error: {"msg":"token timed out or duplicated"}}
-{code: 603686, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
-{code: 604852, error: {"msg":"token timed out or duplicated"}}
-{code: 601233, error: {"msg":"token timed out or duplicated"}}
-{code: 603554, error: {"msg":"token timed out or duplicated"}}
-{code: 602337, error: {"msg":"token timed out or duplicated"}}
-{code: 597694, error: {"msg":"token timed out or duplicated"}}
-{code: 599689, error: {"msg":"token timed out or duplicated"}}
-{code: 594326, error: {"msg":"token timed out or duplicated"}}
-{code: 599190, error: {"msg":"token timed out or duplicated"}}
-{code: 590266, error: {"msg":"token timed out or duplicated"}}
-{code: 588466, error: {"msg":"token timed out or duplicated"}}
-{code: 586846, error: {"msg":"token timed out or duplicated"}}
-{code: 586846, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
-{code: 586722, error: {"timestamp":"2022-06-24T19:59:10.950+0000","status":500,"error":"Internal Server Error","message":"No message available","path":"/fundos/586722"}}
-{code: 583571, error: {"msg":"token timed out or duplicated"}}
-{code: 581801, error: {"msg":"token timed out or duplicated"}}
-{code: 581801, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
-{code: 584991, error: {"msg":"token timed out or duplicated"}}
-{code: 580597, error: {"msg":"token timed out or duplicated"}}
-{code: 577855, error: {"msg":"token timed out or duplicated"}}
-{code: 577219, error: {"msg":"token timed out or duplicated"}}
-{code: 577219, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
-{code: 574007, error: {"msg":"token timed out or duplicated"}}
-{code: 575623, error: {"msg":"token timed out or duplicated"}}
-{code: 575623, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
-{code: 573353, error: {"msg":"token timed out or duplicated"}}
-{code: 569712, error: {"msg":"token timed out or duplicated"}}
-{code: 569003, error: {"msg":"token timed out or duplicated"}}
-{code: 570478, error: {"msg":"token timed out or duplicated"}}
-{code: 570478, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
-{code: 565741, error: {"msg":"token timed out or duplicated"}}
-{code: 567566, error: {"msg":"token timed out or duplicated"}}
-{code: 561290, error: {"msg":"token timed out or duplicated"}}
-{code: 560091, error: {"msg":"token timed out or duplicated"}}
-{code: 558941, error: {"msg":"token timed out or duplicated"}}
-{code: 558941, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
-{code: 561576, error: {"timestamp":"2022-06-24T22:18:24.261+0000","status":500,"error":"Internal Server Error","message":"No message available","path":"/fundos/561576"}}
-{code: 557129, error: {"msg":"token timed out or duplicated"}}
-{code: 561835, error: {"msg":"token timed out or duplicated"}}
-{code: 556378, error: {"msg":"token timed out or duplicated"}}
-{code: 556068, error: {"msg":"token timed out or duplicated"}}
-{code: 556068, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
-{code: 549908, error: {"msg":"token timed out or duplicated"}}
-{code: 550061, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
-{code: 552984, error: {"msg":"token timed out or duplicated"}}
-{code: 551201, error: {"msg":"token timed out or duplicated"}}
-{code: 548405, error: {"msg":"token timed out or duplicated"}}
-{code: 543179, error: {"msg":"token timed out or duplicated"}}
-{code: 544779, error: {"timestamp":"2022-06-24T23:30:27.614+0000","status":500,"error":"Internal Server Error","message":"No message available","path":"/fundos/544779"}}
-{code: 540242, error: {"msg":"token timed out or duplicated"}}
-{code: 538485, error: {"msg":"token timed out or duplicated"}}
-{code: 538132, error: {"msg":"token timed out or duplicated"}}
-{code: 536504, error: {"msg":"token timed out or duplicated"}}
-{code: 534005, error: {"msg":"token timed out or duplicated"}}
-{code: 534005, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
+{code: 653209, error: TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type function ([Function (anonymous)])}
+{code: 652814, error: TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type function ([Function (anonymous)])}
+{code: 653217, error: TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type function ([Function (anonymous)])}
+{code: 652962, error: TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type function ([Function (anonymous)])}
+{code: 653209, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}
+{code: 652814, error: TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type function ([Function (anonymous)])}
+{code: 653217, error: TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type function ([Function (anonymous)])}
+{code: 652962, error: TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type function ([Function (anonymous)])}
+{code: 653209, error: TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type function ([Function (anonymous)])}
+{code: 652814, error: TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type function ([Function (anonymous)])}
+{code: 653209, error: TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type function ([Function (anonymous)])}
+{code: 652814, error: TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type function ([Function (anonymous)])}
+{code: 653217, error: TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type function ([Function (anonymous)])}
+{code: 653209, error: TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type function ([Function (anonymous)])}
+{code: 652814, error: TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type function ([Function (anonymous)])}
+{code: 653217, error: TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type function ([Function (anonymous)])}
+{code: 652962, error: TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type function ([Function (anonymous)])}
+{code: 653446, error: TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type function ([Function (anonymous)])}
+{code: 653209, error: TypeError: Cannot convert undefined or null to object}
+{code: 652814, error: TypeError: Cannot convert undefined or null to object}
+{code: 653209, error: ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.}

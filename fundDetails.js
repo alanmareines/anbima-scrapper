@@ -1,5 +1,6 @@
 import puppeteer from "puppeteer"
 import chalk from "chalk"
+import flatten from "flat"
 import fs from "fs"
 
 const readFile = async () => {
@@ -30,11 +31,31 @@ const retriveFund = async (page) => {
                 if (res.status() === 200) {
                     console.log(chalk.bgGreenBright(res.status()))
 
-                    const file = fs.readFileSync("fundDetails.json").toString()
-                    const newContent = await JSON.parse(file)
-                    newContent.push(anbimaApiResponse)
-                    fs.writeFileSync("fundDetails.json", JSON.stringify(newContent))
-                    return
+                    const fileExist = fs.existsSync("fundDetails.csv")
+
+                    if (!fileExist) {
+                        fs.writeFileSync(
+                            "fundDetails.csv",
+                            `${Object.keys(flatten(anbimaApiResponse, { delimiter: "_" })).join(
+                                ","
+                            )}\n${Object.values(
+                                flatten(anbimaApiResponse, { delimiter: "_" })
+                            ).join(",")}\n`
+                        )
+                    }
+
+                    fs.appendFileSync(
+                        "fundDetails.csv",
+                        `${Object.values(flatten(anbimaApiResponse, { delimiter: "_" })).join(
+                            ","
+                        )}\n`
+                    )
+
+                    // const file = fs.readFileSync("fundDetails.json").toString()
+                    // const newContent = await JSON.parse(file)
+                    // newContent.push(anbimaApiResponse)
+                    // fs.writeFileSync("fundDetails.json", JSON.stringify(newContent))
+                    // return
                 }
 
                 return null
